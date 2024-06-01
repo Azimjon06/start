@@ -4,7 +4,8 @@ import './Welcome.scss'
 function Welcome() {
   return (
     <div className='Welcome   '  >
-      <div className='container d-flex justify-content-between align-items-center hero__top'> 
+      <div className='container'>
+  <div className=' d-flex justify-content-between align-items-center hero__top'> 
       <div className='hero 	 '>
         <h3>W E L C O M E</h3>
         <h1>Lorem ipsum dolor sit amet consectetur </h1>
@@ -15,6 +16,8 @@ function Welcome() {
           <img src={headimg} alt="" />
         </div>
       </div>
+      </div>
+    
     </div>
   )
 }
