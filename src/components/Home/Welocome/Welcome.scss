@@ -42,13 +42,19 @@
 }
 @media (max-width:790px) {
     .Welcome{
-      
+       .hero{
+       width: 300px;
+        p{
+            font-size: 14px;
+            max-width: 300px;
+        }
+       }
         img{
             width: 335px;
         }
         h1{
-            font-size: 28px;
-            
+            font-size: 20px;
+           
            
             
         }
