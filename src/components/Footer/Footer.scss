@@ -1,0 +1,16 @@
+.footer{
+    background-color: var(--mainGreen);
+    padding: 20px ;
+    color: white;
+    .icons{
+        i{
+            margin-left: 10px ;
+        }
+    }
+}
+@media (max-width:790px) {
+    .footer{
+        display: block;
+        flex-wrap: wrap;
+    }
+}

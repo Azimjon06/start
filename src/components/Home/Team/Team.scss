@@ -1,0 +1,47 @@
+.team{
+    padding: 50px  ;
+    h3{
+        color: var(--mainGreen);
+        font-size: 16px;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 40px;
+       
+    }
+    p{
+        font-size: 20px;
+       
+    }
+    .cards{
+        padding: 30px;
+        span{
+            font-size: 15px;
+            color: #212529BF;
+        }
+        .card{
+            box-shadow: 5px 5px 15px black;
+    }
+        }
+    img{
+        padding: 20px 38px;
+    }
+    button{
+        width: 170px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+    }
+}
+@media (max-width:1200px){
+    .cards{
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    .card{
+        margin-top: 20px;
+    }
+}

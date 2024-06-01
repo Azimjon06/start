@@ -1,0 +1,36 @@
+.partners{
+    padding: 50px 141px;
+    h3{
+        font-size: 16px;
+        color: var(--mainGreen);
+    }
+    h1{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    p{
+        font-size: 20px;
+        
+    }
+    .img{
+        padding: 100px 0;
+        margin: 20px ;
+    }
+    button{
+        width: 170px;
+        height: 48px;
+        background-color: black;
+        border-radius: 8px;
+        color: white;
+        
+    }
+}
+@media (max-width:1200px) {
+    .partners{
+        padding: 0;
+    }
+    .img{
+        flex-wrap: wrap;
+        
+    }
+}

@@ -1,0 +1,50 @@
+.portifolio{
+    text-align: center;
+    padding: 50px 0;
+    .port__inner{
+        h3{
+            font-size: 16px;
+            color: var(--mainGreen);
+            font-weight: 700;
+        }
+        h1{
+            font-size: 48px;
+            font-weight: 900;
+            color: var(--mainDark);
+        }
+        p{
+            font-size: 20px;
+        }
+        .imgs{
+            flex-wrap: wrap;
+            img{
+                width: 500px;
+                height: 334.54px;
+            }
+        }
+  
+    }
+    button{
+        color: var(--mainDark);
+        width: 170px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: var(--mainDark);
+        color: white;
+        margin-top: 30px;
+    }
+}
+@media (max-width:700px) {
+    .portifolio{
+        .port__inner{
+            .imgs{
+    
+                img{
+                    width: 300px;
+                    height: 202.21px;
+                   }
+            
+           }
+        }
+    }
+}

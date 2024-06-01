@@ -1,0 +1,66 @@
+.contact{
+   text-align: center;
+   padding:50px 0 ;
+   h1{
+    font-size: 40px;
+    font-weight: 400;
+   } 
+   p{
+    font-size: 20px;
+   }
+   .inner{
+    padding: 40px 0;
+   }
+   .inputs{
+    p{
+        float: left;
+        
+    }
+   }
+   input{
+    display: block;
+    width: 575px;
+    height: 38px;
+    border-radius: 5px;
+    border: black 1px solid;
+    background-color: #EEE;
+   }
+   .last{
+    height: 75px;
+   }
+   button{
+    width: 575px;
+    height: 48px;
+    background-color: var(--mainDark);
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px
+   }
+   iframe{
+    width: 440px;
+    height: 384px;
+   }
+   
+}
+
+@media (max-width:1200px) {
+    .inner{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        
+    }
+}
+@media (max-width:800px){
+    .inner{
+        input{
+            width: 335px;
+        }
+        button{
+            width: 335px;
+        }
+        iframe{
+            width: 335px;
+            height: 224px;
+           }
+    }
+}
