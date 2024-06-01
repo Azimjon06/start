@@ -4,10 +4,11 @@ import Partners from '../../components/Home/Partners/Partners'
 import Hero_top from '../../components/Home/Hero_top/Hero_top'
 import Hero_but from '../../components/Home/Hero_but/Hero_but'
 import Team from '../../components/Home/Team/Team'
+import './Home.scss'
 
 function Home() {
   return (
-   <div className='Home '>
+   <div className='home '>
     <Welcome/>
     <Partners/>
     <Hero_top/>
